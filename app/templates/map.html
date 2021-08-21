@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.3/mapbox-gl-directions.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.3/mapbox-gl-directions.css' type='text/css' />
+
+    <!-- Mapbox GL JS -->
+  <script src=https://api.tiles.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js></script>
+  <link href=https://api.tiles.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css rel="stylesheet" />
+
+  <!-- Mapbox GL Directions -->
+  <script src=https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js></script>
+  <link rel="stylesheet" href=https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css type="text/css" />
+
+  <!-- Turf & Polyline -->
+  <script src="https://npmcdn.com/@turf/turf/turf.min.js"></script>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/mapbox-polyline/1.1.1/polyline.js></script>
+
+  <title>Berkeley Crime Avoidance Navigation</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    #map {
+      height: 100vh;
+      width: 100vw;
+    }
+  </style>
+  <script type="module" src="{{ url_for('static', filename='script.js') }}" defer></script>
+
+</head>
+<body>
+  <div id='map'</div>
+</body>
+</html>
