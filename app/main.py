@@ -1,11 +1,11 @@
 from flask import Flask, render_template
-# import pandas as pd
-# import numpy as np
-# import folium
-# from folium.plugins import MarkerCluster
-# from folium.plugins import HeatMap
-# import re
-# import requests
+import pandas as pd
+import numpy as np
+import folium
+from folium.plugins import MarkerCluster
+from folium.plugins import HeatMap
+import re
+import requests
 
 # import crime data
 crime = requests.get("https://data.cityofberkeley.info/resource/k2nh-s5h5.json?$limit=50000")
