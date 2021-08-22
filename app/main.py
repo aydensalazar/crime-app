@@ -95,6 +95,10 @@ def index():
 def map():
     return render_template("map.html")
 
+@app.route("/contact/")
+def map():
+    return render_template("contact.html")
+
 @app.route("/avoid/")
 def avoid():
     return render_template("avoidance_map.html")
